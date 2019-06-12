@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>::My Shop</title>
+	<link href="style.css" rel="stylesheet" type="text/css" href="">
+	<link href="my.css" "rel="stylesheet" type="text/css" href="">
+
+</head>
+<body>
+	<div id="wrapper">
+	<div id="header">
+		<div id="subheader">
+	<div class="container">
+		     <p>Koushik's First Shopping website</p>
+		  <a href="#">Guest</a><a href="#">Consumer</a><a href="#">Download app</a><a href="#">Help</a>
+		</div>
+	</div>
+	<div id="main-header">
+	<div id="logo">
+		<span id="ist">MY</span><span id="iist">Shop.com</span>
+	    </div>
+	    <div id="search">
+	    	<form action="">
+	    		<input class="search-area" type="text" name="text" placeholder="search here">
+	    		<input class="search-btn" type="submit" name="submit" value="SEARCH">
+	    	</form>
+	    </div>
+	    <div id="user-menu">
+	    <li><a href="#">Cart</a></li>
+	    <li><a href="#">Login</a></li>
+	    <li><a href="#">Home</a></li>
+		<li><a href="#">New Arrivals</a></li>
+		<li><a href="#">Deals</a></li>
+		<li><a href="#">Electronics</a></li>
+		<li><a href="#">Accessroies</a></li>
+		<li><a href="#">Products</a></li>
+		<li><a href="#">Order</a></li>
+	</div>
+	    	
+	    </div>
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+<h2 class="w3-center">             .....this is designed by KOUSHIK DE</h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="01_mall-preview.__large_preview.jpg" style="width:100%">
+  <img class="mySlides" src="images (1).jpg" style="width:100%">
+  <img class="mySlides" src="images.jpg" style="width:100%">
+  <img class="mySlides" src="images (1).jpg" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+	
+</div>
+<script
+  src="http://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
+  <script src="my.js">
+</body>
+</html>
